@@ -7,6 +7,10 @@ import java.util.LinkedHashMap;
 
 public class PhoneManagement
 {
+    /*
+    *NotebookManagement ile aynı işlevleri görür yani bu sınıfı anlamak için
+    * NotebookManagement sınıfının yorum kodlarını okumanız yeterlidir
+     */
     Scanner input = new Scanner(System.in);
 
     LinkedHashMap<Integer, Phone> phoneManagmentLinkedList = new LinkedHashMap<>();

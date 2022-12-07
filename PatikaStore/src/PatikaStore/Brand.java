@@ -10,7 +10,7 @@ public class Brand
 {
 
 
-static void printDefaultBrand()
+static void printDefaultBrand() //Markalarımızı listeleyen metodumuz
 {
     String[] ourBrands = new String[] { "Samsung", "Lenovo", "Apple", "Huawei", "Casper", "Asus", "HP", "Xiaomi", "Monster" };
     Arrays.sort(ourBrands);

@@ -30,6 +30,12 @@ public class Phone
         this.Quality=Quality;
     }
 
+
+    /*
+    *Ürün listeleneceği zaman compenent bazlı mimari şeklinde listelenmesi için
+    * arayüz şeklinde yazdırma işlemi yapan metot
+     */
+
     public void printInformationsOfPhone()
     {
         System.out.printf("| %-2s | %-30s| %-10s TL | %-10s| %-10s| %-12s | %-10s | %-10s  |%-10s |%-10s|%-10s| \n",
